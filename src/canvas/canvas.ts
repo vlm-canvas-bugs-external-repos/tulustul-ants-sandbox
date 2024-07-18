@@ -12,6 +12,7 @@ export class Canvas {
       resizeTo: window,
       backgroundColor: 0x111111,
     });
+    window.__PIXI_APP__ = this.app
     this.camera = new Camera(this);
   }
 }
